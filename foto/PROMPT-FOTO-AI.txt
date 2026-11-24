@@ -1,0 +1,71 @@
+PROMPT FOTO MENU DOKIMITA (untuk generator gambar AI)
+=====================================================
+Gaya mengikuti 2 foto contoh (Dorayaki Choco Crunchy dan Takoyaki Gurita):
+foto makanan close-up, papan/piring kayu hangat, meja kayu gelap, cahaya hangat
+dari samping, latar blur, satu menu dibelah supaya isinya terlihat.
+
+CARA PAKAI
+1. Upload foto contoh ke generator yang sama sebagai referensi gaya
+   (kalau alatnya bisa menerima gambar referensi), lalu tempel prompt di bawah.
+2. Ganti hanya bagian [ISI MENU]. Bagian GAYA jangan diubah supaya semua foto seragam.
+3. Rasio gambar 1:1 (persegi). Kalau alat tidak punya pilihan rasio, tambahkan ", square 1:1".
+4. Simpan hasilnya, lalu kirim ke chat. Nama file bebas, cukup beri tahu urutannya.
+5. Kalau hasilnya tidak mirip menu aslinya (misalnya takoyaki jadi bentuk lain), ulangi
+   dan tambahkan ", photorealistic, accurate to the described food".
+
+----- GAYA (selalu dipakai) -----
+Professional food photography, close-up at 45 degree angle, shallow depth of field,
+warm natural side light, rustic dark wooden table, wooden serving board or plate,
+soft blurred background with small props, crumbs and a little sauce, appetizing,
+high detail, realistic texture, 1:1 square.
+
+----- DORAYAKI (kue pancake Jepang bulat, dua lapis, dibelah memperlihatkan isi) -----
+Sudah ada: Choco Crunchy
+
+1. Dorayaki Cheese Crunchy
+   [GAYA] Two stacked fluffy dorayaki pancakes cut in half, melted cheese cream filling with crunchy bits oozing out, grated cheese on the side.
+2. Dorayaki Milk Crunchy
+   [GAYA] Two stacked fluffy dorayaki cut in half, creamy white milk cream filling with crunchy bits, a small glass of milk blurred behind.
+3. Dorayaki Tiramisu Crunchy
+   [GAYA] Two stacked fluffy dorayaki cut in half, coffee tiramisu mascarpone cream filling, cocoa powder dusting, coffee cup blurred behind.
+4. Dorayaki Blueberry
+   [GAYA] Two stacked fluffy dorayaki cut in half, blueberry jam and cream filling, fresh blueberries scattered.
+5. Dorayaki Strawberry
+   [GAYA] Two stacked fluffy dorayaki cut in half, strawberry jam and cream filling, fresh strawberries beside.
+6. Dorayaki Choco Hazelnut
+   [GAYA] Two stacked fluffy dorayaki cut in half, chocolate hazelnut spread filling, whole hazelnuts scattered.
+7. Dorayaki Red Bean
+   [GAYA] Two stacked fluffy dorayaki cut in half, sweet red bean paste (anko) filling, a few red beans and a cup of green tea blurred behind.
+8. Dorayaki Ovomaltine
+   [GAYA] Two stacked fluffy dorayaki cut in half, malted chocolate cream filling with crunchy malt balls, malt crumbs on the board.
+9. Dorayaki Nutella
+   [GAYA] Two stacked fluffy dorayaki cut in half, thick glossy chocolate hazelnut spread filling dripping out, hazelnuts beside.
+10. Dorayaki Durian
+    [GAYA] Two stacked fluffy dorayaki cut in half, golden yellow durian cream filling, a few durian flesh pieces blurred beside.
+
+----- TAKOYAKI (6 bola takoyaki di piring kayu, saus takoyaki, mayones, katsuobushi, nori; satu dibelah) -----
+Sudah ada: Gurita (octopus)
+
+11. Takoyaki Cheese
+    [GAYA] Six takoyaki balls with takoyaki sauce, mayonnaise, bonito flakes and seaweed, one cut open showing melted cheese inside, cheese stretching.
+12. Takoyaki Kepiting
+    [GAYA] Six takoyaki balls with sauce, mayonnaise, bonito flakes and seaweed, one cut open showing crab meat inside, crab stick pieces beside.
+13. Takoyaki Sosis
+    [GAYA] Six takoyaki balls with sauce, mayonnaise, bonito flakes and seaweed, one cut open showing a piece of sausage inside.
+14. Takoyaki Udang
+    [GAYA] Six takoyaki balls with sauce, mayonnaise, bonito flakes and seaweed, one cut open showing a whole shrimp inside.
+15. Takoyaki Mozarella
+    [GAYA] Six takoyaki balls with sauce, mayonnaise, bonito flakes and seaweed, one cut open showing stretchy melted mozzarella inside.
+16. Takoyaki Mix All Variant
+    [GAYA] Six takoyaki balls, each with different toppings, sauce, mayonnaise, bonito flakes and seaweed, two cut open showing octopus, shrimp and cheese fillings.
+17. Takoyaki Mix Seafood
+    [GAYA] Six takoyaki balls with sauce, mayonnaise, bonito flakes and seaweed, one cut open showing mixed seafood (octopus, shrimp, crab) inside.
+18. Takoyaki Mix Gurita & Udang
+    [GAYA] Six takoyaki balls with sauce, mayonnaise, bonito flakes and seaweed, two cut open, one showing octopus and one showing shrimp.
+19. Takoyaki Mix Gurita & Mozarella
+    [GAYA] Six takoyaki balls with sauce, mayonnaise, bonito flakes and seaweed, two cut open, one showing octopus and one showing stretchy mozzarella.
+
+----- FOTO TAMBAHAN (opsional) -----
+hero.jpg    : foto besar untuk bagian atas. Susunan dorayaki dan takoyaki berdampingan di meja kayu.
+tentang.jpg : suasana store atau proses memasak takoyaki di cetakan.
+cta.jpg     : dorayaki dan takoyaki dalam kotak bawa pulang.

@@ -1,0 +1,84 @@
+PANDUAN MEMASANG WEBSITE DOKIMITA (dari nol)
+============================================
+
+Isi folder ini:
+  index.html                     -> isi halaman (teks, menu, link)
+  style.css                      -> tampilan (warna, ukuran, tata letak)
+  foto/                          -> tempat foto produk
+  foto/DAFTAR-NAMA-FOTO.txt      -> daftar nama file foto yang harus dipakai
+  PANDUAN-UPLOAD.txt             -> panduan ini
+
+
+A. LIHAT HASILNYA DI KOMPUTER DULU
+  1. Klik dua kali file index.html. Website terbuka di browser.
+  2. Perlu internet agar font tampil dengan benar.
+
+
+B. MASUKKAN FOTO PRODUK
+  1. Buka foto/DAFTAR-NAMA-FOTO.txt, lihat nama file yang dibutuhkan.
+  2. Ubah nama file foto kamu persis seperti daftar itu, lalu taruh di folder foto/.
+     Contoh: dorayaki-choco-crunchy.jpg, takoyaki-gurita.jpg, hero.jpg
+  3. Tidak harus sekaligus. Foto yang belum ada otomatis diganti emoji.
+  4. Tips: foto persegi (1:1), lebar sekitar 1000px, di bawah 300 KB per foto.
+     Format harus .jpg dan nama huruf kecil semua.
+  5. Muat ulang index.html untuk melihat hasilnya.
+
+
+C. PASANG ONLINE (Netlify, gratis)
+  1. Buka  https://app.netlify.com/drop  lalu daftar akun gratis
+     (bisa pakai akun Google). Tanpa akun, website bisa hilang setelah sebentar.
+  2. Tarik FOLDER "dokimita-website" (bukan file zip-nya) ke kotak upload.
+  3. Tunggu beberapa detik. Kamu akan mendapat alamat website acak.
+  4. Ganti nama alamat: buka website kamu di dasbor Netlify, cari
+     "Site configuration" atau "Site details", lalu "Change site name".
+     Isi "dokimita" (jika tersedia) -> alamatnya jadi dokimita.netlify.app.
+     (Tampilan menu Netlify bisa sedikit berbeda, tapi isinya sama.)
+
+  Cara update setelah ada perubahan (ganti foto/teks):
+  buka website di dasbor Netlify -> tab "Deploys" -> tarik folder
+  dokimita-website lagi ke area upload.
+
+
+D. MENGUBAH TEKS (tanpa program khusus)
+  (Atau pakai VS Code: buka foldernya, lalu edit index.html / style.css.)
+  1. Klik kanan index.html -> Open with -> Notepad.
+  2. Tekan Ctrl+F untuk mencari teks yang mau diubah (contoh: harga, alamat, testimoni).
+  3. Ubah teksnya, simpan (Ctrl+S), lalu upload ulang seperti langkah di atas.
+
+  Hal yang perlu kamu ganti nanti:
+  - Testimoni: cari "CONTOH SEMENTARA", ganti dengan ulasan asli pelanggan.
+  - Link GrabFood / GoFood / ShopeeFood: cari "LINK APLIKASI" dan ikuti petunjuk di komentarnya.
+  - Warna: buka style.css, ubah nilai di bagian :root paling atas.
+  - Logo: kirim ke Claude untuk dipasang, atau minta panduan menaruhnya sendiri.
+
+E. SETELAH ONLINE
+  - Cek di HP: tombol Order, tab Dorayaki/Takoyaki, dan tombol WhatsApp.
+  - Tempel link website di bio Instagram, TikTok, WhatsApp Business, dan profil Google Maps.
+
+
+==================================================
+TAMBAHAN VERSI 2 (fitur baru)
+==================================================
+1. KERANJANG PESANAN VIA WHATSAPP
+   Pembeli tap "+ Tambah" di menu, lalu "Lihat pesanan" untuk
+   mengatur jumlah dan mengirim rangkuman pesanan ke WhatsApp kamu.
+   Pesanan otomatis menyebut "ambil di store".
+   Harga dibaca dari tombol "+ Tambah" di index.html
+   (data-price). Jika harga di menu diganti, ganti juga
+   data-price pada baris yang sama.
+
+2. CARI & FILTER MENU
+   Kategori rasa diatur lewat data-tags di tiap baris menu
+   (contoh: data-tags='cokelat kacang'). Silakan diubah.
+
+3. FILE BARU: script.js
+   Wajib ikut di-upload bersama index.html dan style.css.
+   Nomor WhatsApp ada di bagian KONFIGURASI paling atas script.js.
+
+4. Tanpa JavaScript, website tetap bisa dipakai biasa.
+
+LOGO & FAVICON
+   logo.png (dipakai di header & footer), logo-hd.png (versi besar),
+   favicon.png / favicon.ico / apple-touch-icon.png (ikon tab & layar HP).
+   Kalau nanti punya file logo asli (PNG/SVG), cukup timpa file-file ini
+   dengan nama yang sama.

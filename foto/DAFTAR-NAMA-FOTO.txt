@@ -1,0 +1,49 @@
+DAFTAR NAMA FOTO (taruh di folder ini)
+========================================
+
+Format: .jpg (huruf kecil semua). Ukuran disarankan persegi (1:1), lebar sekitar 1000px,
+dan di bawah 300 KB per foto supaya website cepat dibuka di HP.
+Kalau sebuah foto belum ada, website otomatis menampilkan emoji sebagai pengganti.
+
+FOTO UMUM
+  hero.jpg      -> foto besar di halaman depan (persegi)
+  tentang.jpg   -> foto di bagian Tentang (persegi)
+  cta.jpg       -> foto di bagian 'Udah Siap nyemil?' (persegi)
+
+DORAYAKI (11)
+  dorayaki-blueberry.jpg
+  dorayaki-cheese-crunchy.jpg
+  dorayaki-choco-crunchy.jpg
+  dorayaki-choco-hazelnut.jpg
+  dorayaki-durian.jpg
+  dorayaki-milk-crunchy.jpg
+  dorayaki-nutella.jpg
+  dorayaki-ovomaltine.jpg
+  dorayaki-red-bean.jpg
+  dorayaki-strawberry.jpg
+  dorayaki-tiramisu-crunchy.jpg
+
+TAKOYAKI (10)
+  takoyaki-cheese.jpg
+  takoyaki-gurita.jpg
+  takoyaki-kepiting.jpg
+  takoyaki-mix-all-variant.jpg
+  takoyaki-mix-gurita-mozarella.jpg
+  takoyaki-mix-gurita-udang.jpg
+  takoyaki-mix-seafood.jpg
+  takoyaki-mozarella.jpg
+  takoyaki-sosis.jpg
+  takoyaki-udang.jpg
+
+Satu foto produk dipakai di dua tempat (kartu Best Seller dan daftar menu).
+
+
+CATATAN FOTO SEMENTARA
+Foto asli sudah ada untuk: choco-crunchy, nutella, milk-crunchy, blueberry, strawberry,
+tiramisu-crunchy, red-bean, choco-hazelnut, ovomaltine, takoyaki-gurita, takoyaki-sosis.
+Foto PINJAMAN (ganti dengan foto menu yang benar kalau sudah ada, cukup timpa nama file yang sama):
+ dorayaki-cheese-crunchy.jpg  (pakai foto milk crunchy)
+ takoyaki-cheese, takoyaki-mozarella, takoyaki-kepiting, takoyaki-udang (pakai foto takoyaki sosis)
+ takoyaki-mix-all-variant, takoyaki-mix-seafood, takoyaki-mix-gurita-udang, takoyaki-mix-gurita-mozarella (pakai foto takoyaki gurita)
+ hero.jpg (pakai foto dorayaki strawberry)
+Belum ada foto: dorayaki-durian (tampil emoji).
